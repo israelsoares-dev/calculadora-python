@@ -1,19 +1,17 @@
 # Calculadora em Python
 
-Calculadora desenvolvida em Python para praticar lógica de programação e operações matemáticas.
+Calculadora desenvolvida em Python para praticar lógica de programação, operações matemáticas e manipulação de arquivos.
 
-## Instruções de uso
+## Funcionalidades
 
-A calculadora permite realizar as seguintes operações:
-
-| Símbolo | Operação | Exemplo |
-|---|---|---|
-| `+` | Soma (adição) | `5 + 3 = 8` |
-| `-` | Subtração | `5 - 3 = 2` |
-| `*` | Multiplicação | `5 * 3 = 15` |
-| `/` | Divisão | `6 / 3 = 2` |
-| `**` | Potenciação | `2 ** 3 = 8` |
-| `r` | Raiz quadrada | Entrada: `r`, número: `9`, resultado: `3`  |
+- Soma (`+`)
+- Subtração (`-`)
+- Multiplicação (`*`)
+- Divisão (`/`)
+- Potenciação (`**`)
+- Raiz quadrada (`r`)
+- Registro do histórico de cálculos em arquivo de texto
+- Opção para continuar realizando operações
 
 ## Tecnologias utilizadas
 
@@ -23,11 +21,27 @@ A calculadora permite realizar as seguintes operações:
 
 ## Como executar
 
-1. Instale o Python 3.
-2. Baixe ou clone este repositório.
+1. Instale o [Python 3](https://www.python.org/downloads/).
+2. Clone este repositório ou baixe os arquivos.
 3. Abra o terminal na pasta do projeto.
-4. Execute:
+4. Execute o comando:
 
    ```bash
-   python calcultor.py
+   python calculator.py
+   ```
 
+   No Windows, se o comando `python` não funcionar, tente:
+
+   ```bash
+   py calculator.py
+   ```
+
+## Histórico de cálculos
+
+Os cálculos realizados são registrados no arquivo `historico.txt`.
+
+Para visualizar o conteúdo pelo terminal Git Bash, execute:
+
+```bash
+cat historico.txt
+```
